@@ -72,6 +72,7 @@ security:
 spring:
   profiles: openshift
   jpa:
+    generate-ddl: true
     show_sql: true
     database: H2
     database-platform: org.hibernate.dialect.H2Dialect
@@ -103,6 +104,7 @@ security:
 spring:
   profiles: dev
   jpa:
+    generate-ddl: true
     show_sql: true
     database: H2
     database-platform: org.hibernate.dialect.H2Dialect
@@ -134,6 +136,7 @@ security:
 spring:
   profiles: cloud
   jpa:
+    generate-ddl: true
     show_sql: true
     database: H2
     database-platform: org.hibernate.dialect.H2Dialect
@@ -154,4 +157,3 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://discovery-service-uncrated-doper.cfapps.io/eureka/
-
