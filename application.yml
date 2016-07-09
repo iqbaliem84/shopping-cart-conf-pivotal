@@ -50,4 +50,3 @@ logging:
     org.springframework.web: WARN
     org.ihkhan: WARN
     org.hibernate: WARN
-	
