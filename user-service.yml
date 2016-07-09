@@ -91,7 +91,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://discoveryservice-iqbalkhan.rhcloud.com/eureka/
+      defaultZone: http://discovery-service-uncrated-doper.cfapps.io/eureka/
 ---
 server:
   port: 8181
